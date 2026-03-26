@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 st.set_page_config(page_title="Engagement Score UI", layout="wide")
 st.title("Engagement Score Predictor - Streamlit Interface")
 
-DATA_PATH = "C:\\Users\\susmitha\\Downloads\\engagement.csv"
+DATA_PATH = r"C:\Users\susmitha\OneDrive\Desktop\crt 2.2\last_models\engagement.csv"
 
 @st.cache_data
 def load_data(path):
